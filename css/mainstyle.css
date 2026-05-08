@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background:
+    radial-gradient(circle at center,
+    rgba(168, 85, 247, 0.9) 0%,
+    rgba(126, 34, 206, 0.5) 40%,
+    rgba(0, 0, 0, 0) 90%),
+    #05010a;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding: 20px;
+    background: rgba(39, 32, 32, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+.description h1,
+.description h3,
+.description p{
+    margin: 0;
+}
+.hero-buttons{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+.hero-buttons button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(168, 85, 247, 0.8);
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.hero-buttons button:hover{
+    background: rgba(126, 34, 206, 1);
+    transform: scale(1.05);
+}

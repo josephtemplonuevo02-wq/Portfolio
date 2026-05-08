@@ -1,0 +1,91 @@
+@media (max-width: 375px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .hero {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 28px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-buttons button {
+        width: 100%;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 5%;
+        gap: 30px;
+    }
+
+    .about-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-info h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .about-info p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .popup-content {
+        flex-direction: column;
+        padding: 15px;
+        width: 95%;
+    }
+
+    .popup-content img {
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .popup-content p {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .skills-container {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .skills-container h2 {
+        font-size: 22px;
+    }
+
+    .skills-container ul {
+        grid-template-columns: 1fr;
+    }
+}
